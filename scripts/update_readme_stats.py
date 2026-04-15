@@ -93,24 +93,18 @@ def collect_window(login: str, start: datetime, end: datetime) -> dict:
 
 def build_table(login: str, w30: dict, w365: dict, generated_at: str) -> str:
     langs_y = ", ".join(w365["languages"]) if w365["languages"] else "—"
-    return f"""### 📊 GitHub activity (auto-updated)
+    # No github-readme-stats images (public instance is often rate-limited). Table only.
+    return f"""### Activity (auto-updated)
 
-_Generated: {generated_at} UTC · Rolling windows (last 30 / last 365 days)_
+<sub>Last refresh: {generated_at} UTC · windows: last 30 / last 365 days</sub>
 
-| Window | Commits | PRs opened | PR reviews | Repos with commits | Distinct languages* |
-|--------|--------:|-----------:|-----------:|-------------------:|--------------------:|
+| Window | Commits | PRs opened | PR reviews | Repos with commits | Distinct languages |
+|--------|--------:|-----------:|-----------:|-------------------:|-------------------:|
 | **Last 30 days** | {w30["commits"]} | {w30["prs"]} | {w30["reviews"]} | {w30["distinct_repos"]} | {w30["distinct_languages"]} |
 | **Last 365 days** | {w365["commits"]} | {w365["prs"]} | {w365["reviews"]} | {w365["distinct_repos"]} | {w365["distinct_languages"]} |
 
-_Languages in the table: distinct primary languages of repositories where you had commits in that window._
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username={login}&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true" alt="GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username={login}&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top languages" />
-</p>
-
 <details>
-<summary><b>Languages (365d, primary lang per repo with your commits)</b></summary>
+<summary><b>Languages (365d — primary language per repo where you had commits)</b></summary>
 
 {langs_y}
 
