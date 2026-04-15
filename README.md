@@ -30,7 +30,29 @@ Results-driven developer with **4 years** of experience building scalable, end-t
 **Languages:** English — Fluent.
 
 <!-- STATS:AUTO:START -->
-<!-- Initial placeholder — GitHub Actions will replace this block on first run (or delete this comment and keep markers empty). -->
+### 📊 GitHub activity (auto-updated)
+
+_Generated: 2026-04-15 12:58 UTC · Rolling windows (last 30 / last 365 days)_
+
+| Window | Commits | PRs opened | PR reviews | Repos with commits | Distinct languages* |
+|--------|--------:|-----------:|-----------:|-------------------:|--------------------:|
+| **Last 30 days** | 0 | 0 | 0 | 0 | 0 |
+| **Last 365 days** | 0 | 0 | 0 | 0 | 0 |
+
+_Languages in the table: distinct primary languages of repositories where you had commits in that window._
+
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=toprak1771&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true" alt="GitHub stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=toprak1771&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top languages" />
+</p>
+
+<details>
+<summary><b>Languages (365d, primary lang per repo with your commits)</b></summary>
+
+—
+
+</details>
+
 <!-- STATS:AUTO:END -->
 
 ### Achievements (highlights)
