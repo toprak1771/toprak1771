@@ -80,30 +80,6 @@ Results-driven developer with **4+ years** of experience building and maintainin
 
 ---
 
-<<<<<<< HEAD
-<!-- STATS:AUTO:START -->
-### Activity (auto-updated)
-
-<sub>Last refresh: 2026-04-15 13:07 UTC · windows: last 30 / last 365 days</sub>
-
-| Window | Commits | PRs opened | PR reviews | Repos with commits | Distinct languages |
-|--------|--------:|-----------:|-----------:|-------------------:|-------------------:|
-| **Last 30 days** | 0 | 0 | 0 | 0 | 0 |
-| **Last 365 days** | 0 | 0 | 0 | 0 | 0 |
-
-<details>
-<summary><b>Languages (365d — primary language per repo where you had commits)</b></summary>
-
-—
-
-</details>
-
-<!-- STATS:AUTO:END -->
-
----
-
-=======
->>>>>>> 2963710 (v3)
 ### Achievements
 
 - **Siberalem backend:** Architected a feed data pipeline by instrumenting a core .NET repository with domain events; established Elasticsearch and ClickHouse infrastructure for search and analytics; built BullMQ-based NestJS workers for event ingestion/indexing; and delivered a dedicated NestJS API layer for new endpoints.
