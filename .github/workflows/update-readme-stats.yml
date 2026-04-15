@@ -1,0 +1,43 @@
+# Daily refresh of the <!-- STATS:AUTO --> block in README.md (commits, PRs, repos, languages).
+# Copy this folder into your profile repo: github.com/<user>/<user>
+name: Update README stats
+
+on:
+  schedule:
+    - cron: "15 3 * * *" # 03:15 UTC daily
+  workflow_dispatch:
+
+concurrency:
+  group: readme-stats
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # Optional repo secret STATS_TOKEN: classic PAT with read:user (and repo if you want private stats in totals).
+      # If unset, falls back to GITHUB_TOKEN (public contribution data only for the queried user).
+      - name: Update stats section
+        env:
+          GITHUB_TOKEN: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
+          GH_USER: ${{ github.repository_owner }}
+          README_PATH: README.md
+        run: python3 scripts/update_readme_stats.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          if git diff --staged --quiet; then
+            echo "No README changes."
+            exit 0
+          fi
+          git commit -m "docs: refresh GitHub stats [skip ci]"
+          git push
