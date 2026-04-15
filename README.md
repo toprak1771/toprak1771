@@ -76,11 +76,21 @@ Results-driven developer with **4+ years** of experience building scalable, end-
 ---
 
 <!-- STATS:AUTO:START -->
-> **Activity stats** load here after the first successful run of [`.github/workflows/update-readme-stats.yml`](.github/workflows/update-readme-stats.yml) (GitHub Actions). No external “stats cards” — only your real numbers in the table below.
+### Activity (auto-updated)
 
-| Window | Commits | PRs | Reviews | Repos | Langs |
-|--------|--------:|----:|--------:|------:|------:|
-| *Pending workflow…* | — | — | — | — | — |
+<sub>Last refresh: 2026-04-15 13:07 UTC · windows: last 30 / last 365 days</sub>
+
+| Window | Commits | PRs opened | PR reviews | Repos with commits | Distinct languages |
+|--------|--------:|-----------:|-----------:|-------------------:|-------------------:|
+| **Last 30 days** | 0 | 0 | 0 | 0 | 0 |
+| **Last 365 days** | 0 | 0 | 0 | 0 | 0 |
+
+<details>
+<summary><b>Languages (365d — primary language per repo where you had commits)</b></summary>
+
+—
+
+</details>
 
 <!-- STATS:AUTO:END -->
 
