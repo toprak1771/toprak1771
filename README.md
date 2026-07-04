@@ -54,7 +54,7 @@ Results-driven developer with **4+ years** of experience building and maintainin
 
 | Role | Company | Period |
 |------|---------|--------|
-| **Full Stack Developer** | Virlan Teknoloji · Siberalem, Tarlamcepte, mobile, Bithero | May 2025 – Present |
+| **Full Stack Developer** | Virlan Teknoloji · Siberalem, Tarlamcepte, mobile, Bithero | May 2025 – July 2026 |
 | **Backend Developer** | PIXSelect (remote) | Feb 2024 – May 2025 |
 | **Full Stack Developer** | Matematika / Quants&Risk | Feb 2023 – Feb 2024 |
 | **.NET Developer** | Enoca | Oct 2022 – Feb 2023 |
