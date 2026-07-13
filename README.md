@@ -9,7 +9,7 @@
 <a href="https://linkedin.com/in/toprak-tüzün-5aa520193"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
 <a href="https://github.com/toprak1771?tab=followers"><img src="https://img.shields.io/github/followers/toprak1771?label=Followers&style=for-the-badge&color=blue" alt="Followers"/></a>
 
-<sub>Çanakkale · Turkey · <code>@ebias</code></sub>
+<sub> Turkey · <code></code></sub>
 
 </div>
 
