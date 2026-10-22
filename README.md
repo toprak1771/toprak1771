@@ -62,7 +62,7 @@ Results-driven developer with **4+ years** of experience building and maintainin
 
 <details>
 <summary><b>Highlights (click to expand)</b></summary>
-
+  - **Machinarium:** Developed backend features for a modular commerce platform (PIM, OMS, e-commerce, integrations) built as Node.js microservices and serving multiple retail clients. Built bulk import/export pipelines and multi-language support with AI-assisted translation, worked on order and package status flows, and developed ERP/SFTP integrations with retry and fallback handling. Contributed to the shared base framework (permissions, token verification, API gateways) and resolved production incidents end to end with safe data-repair tooling, using PostgreSQL, Sequelize, Elasticsearch, Redis, Docker, and Kubernetes.
 - **Siberalem (Virlan):** Delivered modular backend features with NestJS, maintained and extended an existing .NET core, and designed a feed pipeline driven by domain events. Built event-processing workers with BullMQ, integrated Elasticsearch and ClickHouse for search/analytics, and developed new APIs to expose the new capabilities.
 - **PIXSelect:** Contributed to payment-related backend services using Express/Nest and Node.js, managed media/file workflows with AWS S3 and FFmpeg, and supported Dockerized deployments with PostgreSQL-backed services.
 - **Matematika / Quants&Risk:** Worked full stack on a data management platform and an AML product using Express, React, Redux, and modern UI libraries; shipped backend and frontend features with Docker, MySQL, MongoDB, and Knex.
