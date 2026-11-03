@@ -19,7 +19,7 @@
 
 ### About
 
-Results-driven developer with **4+ years** of experience building and maintaining scalable, end-to-end products across web, backend, and mobile. Strong in **NestJS**, **React**, **.NET**, and event/data-heavy systems with **Elasticsearch** and **ClickHouse**. Hands-on with **JavaScript**, **TypeScript**, **C#**, **PostgreSQL**, **MongoDB**, **Docker**, and modernization of legacy codebases through modular architecture and incremental refactoring. I focus on **clean architecture**, **performance**, **reliability**, and shipping features that produce measurable business value.
+Results-driven developer with **5+ years** of experience building and maintaining scalable, end-to-end products across web, backend, and mobile. Strong in **NestJS**, **React**, **.NET**, and event/data-heavy systems with **Elasticsearch** and **ClickHouse**. Hands-on with **JavaScript**, **TypeScript**, **C#**, **PostgreSQL**, **MongoDB**, **Docker**, and modernization of legacy codebases through modular architecture and incremental refactoring. I focus on **clean architecture**, **performance**, **reliability**, and shipping features that produce measurable business value.
 
 ---
 
